@@ -16,6 +16,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -31,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="205" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/JavaFX_Text_Adventure_Game_Template-master" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -102,10 +106,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1584736083843" />
-    <state x="416" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584810071779">
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584892540431">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="416" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584810071779" />
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584892540431" />
     <state x="102" y="125" key="new project wizard" timestamp="1584799222923">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
