@@ -1,8 +1,13 @@
-package pl.central;
+package pl.central.horseshopX;
+
+import pl.central.ActionStateContext;
+import pl.central.MarketX;
+import pl.central.OutskirtsX;
+import pl.central.PlayerActionState;
 
 import static pl.central.Main.getUserInput;
 
-public class MarketXHorseShop implements PlayerActionState{
+public class MarketXHorseShop implements PlayerActionState {
 
     @Override
     public void action(ActionStateContext ctx)

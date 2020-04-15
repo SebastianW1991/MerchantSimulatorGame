@@ -1,4 +1,4 @@
-package pl.central;
+package pl.central.horseshopX;
 
 public class MarketXHorseShopStrongMule {
     private double marketXHorseShopStrongMulePrice;

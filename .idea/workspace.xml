@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4abe81db-f040-4d58-b387-171b2244bc88" name="Default Changelist" comment="" />
+    <list default="true" id="4abe81db-f040-4d58-b387-171b2244bc88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/central/tavernX/TavernX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/central/tavernX/TavernXHorseFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/central/tavernX/TavernXMeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/central/tavernX/TavernXRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/central/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/MarketX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/central/MarketX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/MarketXHorseShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/central/horseshopX/MarketXHorseShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/MarketXHorseShopMule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/central/horseshopX/MarketXHorseShopMule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/MarketXHorseShopOldMule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/central/horseshopX/MarketXHorseShopOldMule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/MarketXHorseShopStrongMule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/central/horseshopX/MarketXHorseShopStrongMule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/TavernX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/TavernXBeer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/central/tavernX/TavernXBeer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/central/XarthasMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/central/XarthasMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/central/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/MarketX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/central/MarketX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/MarketXHorseShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/MarketXHorseShopMule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/MarketXHorseShopOldMule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/MarketXHorseShopStrongMule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/TavernX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/TavernXBeer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/central/XarthasMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/central/XarthasMain.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,25 +37,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1ZP77BuWjrHaiyzNYE3O9KVu7Ry" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -50,7 +68,7 @@
       <module name="MerchantSimulatorGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.central.*" />
+          <option name="PATTERN" value="pl.central.horseshopX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,38 +96,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="400" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586867871572">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="400" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.860@0.0.1440.860" timestamp="1586867871572" />
     <state x="352" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584732010430">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="352" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1584732010430" />
+    <state x="503" y="299" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586942501870">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="503" y="299" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.860@0.0.1440.860" timestamp="1586942501870" />
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1584800962267">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1584800962267" />
-    <state width="1340" height="206" key="GridCell.Tab.0.bottom" timestamp="1584738699317">
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom" timestamp="1586951768250">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1584738699317" />
-    <state width="1340" height="206" key="GridCell.Tab.0.center" timestamp="1584738699317">
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586951768250" />
+    <state width="1397" height="206" key="GridCell.Tab.0.center" timestamp="1586951768250">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1584738699317" />
-    <state width="1340" height="206" key="GridCell.Tab.0.left" timestamp="1584738699317">
+    <state width="1397" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586951768250" />
+    <state width="1397" height="206" key="GridCell.Tab.0.left" timestamp="1586951768249">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1584738699317" />
-    <state width="1340" height="206" key="GridCell.Tab.0.right" timestamp="1584738699317">
+    <state width="1397" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586951768249" />
+    <state width="1397" height="206" key="GridCell.Tab.0.right" timestamp="1586951768250">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1340" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1584738699317" />
+    <state width="1397" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586951768250" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1584736083843">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1584736083843" />
-    <state x="416" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584892540431">
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586867860929">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="416" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584892540431" />
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1586867860929" />
+    <state x="529" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586950321962">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="529" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1586950321962" />
     <state x="102" y="125" key="new project wizard" timestamp="1584799222923">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -118,5 +148,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="462" y="49" key="refactoring.ChangeSignatureDialog/0.0.1440.860@0.0.1440.860" timestamp="1584731709857" />
+    <state x="376" y="195" key="run.anything.popup" timestamp="1586944161912">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1586944161912" />
   </component>
 </project>

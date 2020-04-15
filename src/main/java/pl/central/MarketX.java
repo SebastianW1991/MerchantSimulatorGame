@@ -1,5 +1,7 @@
 package pl.central;
 
+import pl.central.horseshopX.MarketXHorseShop;
+
 import static pl.central.Main.getUserInput;
 import static pl.central.Main.playerWealth;
 
@@ -8,13 +10,13 @@ public class MarketX implements PlayerActionState {
     public void action(ActionStateContext ctx)
     {
         System.out.println("\"You arrived on  market place of Xarthas, apart of small shops selling non trade\" \n" +
-                "                \" utilities such as meat or fish, you can see big merchant shops. Having "+playerWealth+
-                " you can go to:\\n\"" +
-                " +\n" + "              \"[a] Go to horse merchant.\\n\" +\n" +
-                "                \"[b] Go to armor merchant.\\n\" +\n" +
-                "                \"[c] Go to wine merchant.\\n\" +\n" +
-                "                \"[d] Go to weapon merchant.\\n\" +\n" +
-                "                \"[e] Go to wheat merchant.\\n\" +\n" +
+                "  utilities such as meat or fish, you can see big merchant shops. Having "+playerWealth+
+                " you can go to:\n" +
+                "              \"[a] Go to horse merchant.\n" +
+                "                \"[b] Go to armor merchant.\n" +
+                "                \"[c] Go to wine merchant.\n" +
+                "                \"[d] Go to weapon merchant.\n" +
+                "                \"[e] Go to wheat merchant.\n" +
                 "                \"[f] Leave the market\";");
 
         String playerChoice = getUserInput();
