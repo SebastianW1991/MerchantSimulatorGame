@@ -1,21 +1,22 @@
-package pl.central.horseshopX;
+package pl.central.marketX.wineshopX;
 
 import pl.central.ActionStateContext;
-import pl.central.MarketX;
+import pl.central.marketX.MarketX;
 import pl.central.OutskirtsX;
 import pl.central.PlayerActionState;
+import pl.central.marketX.horseshopX.MarketXHorseShopOldMule;
 
 import static pl.central.Main.getUserInput;
 
-public class MarketXHorseShop implements PlayerActionState {
+public class MarketXWineShop implements PlayerActionState {
 
     @Override
     public void action(ActionStateContext ctx)
     {
         System.out.println("You can:\n" +
-                "[a] Buy old mule for 5 guldens\n" +
-                "[b] Buy mule for 8 guldens\n" +
-                "[c] Buy strong mule for 10 guldens\n" +
+                "[a] Buy barrel of fresh red dry wine for 20 guldens\n" +
+                "[b] Buy barrel of 1 year old  red dry wine for 40 guldens\n" +
+                "[c] Buy barrel of  10 years old red dry wine for 120 guldens\n" +
                 "[d] Return to the market");
         String playerChoice = getUserInput();
         ActionStateContext stateContext = new ActionStateContext();
@@ -23,13 +24,13 @@ public class MarketXHorseShop implements PlayerActionState {
         switch (playerChoice)
         {
             case  "a":
-                stateContext.setState(new MarketXHorseShopOldMule());
+                stateContext.setState(new MarketXWineRedDryFresh());
                 stateContext.action();
             case "b" :
-                stateContext.setState(new MarketX());
+                stateContext.setState(new MarketXWineRedDryYearOld());
                 stateContext.action();
             case "c":
-                stateContext.setState(new OutskirtsX());
+                stateContext.setState(new MarketXWineRedDryTenYearsOld());
                 stateContext.action();
             case "d":
                 stateContext.setState(new MarketX());
@@ -40,6 +41,3 @@ public class MarketXHorseShop implements PlayerActionState {
 
     }
 }
-
-
-

@@ -1,9 +1,9 @@
-package pl.central.horseshopX;
+package pl.central.marketX.horseshopX;
 
 
 import pl.central.ActionStateContext;
 import pl.central.PlayerActionState;
-import pl.central.MarketX;
+import pl.central.marketX.MarketX;
 
 import static pl.central.Main.getUserInput;
 import static pl.central.Main.playerWealth;

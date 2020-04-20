@@ -1,5 +1,6 @@
 package pl.central;
 
+import pl.central.marketX.MarketX;
 import pl.central.tavernX.TavernX;
 
 import java.util.Scanner;
@@ -19,7 +20,7 @@ public class Main {
         System.out.println("Hello " + player.getPlayerName() + " After long time abroad where you were " +
                 "apprentice at local merchant shop, you were called to your hometown, because of your father death. " +
                 "\nUnfortunately, after return, you found that house of your parents was destroyed by fire. " +
-                "All you have now is " + playerWealth + "guldens and old cart with couple of donkeys. " +
+                "All you have now is " + playerWealth + " guldens and old cart with couple of donkeys. " +
                 "Now you are in the middle of the city of Xarthas and your possibilities, where you can go include:\n " +
                 "[a] Tavern\n [b] Marketplace\n [c] City Outskirts ");
 

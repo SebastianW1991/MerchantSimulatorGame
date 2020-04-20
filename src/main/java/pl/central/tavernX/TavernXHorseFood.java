@@ -1,7 +1,7 @@
 package pl.central.tavernX;
 
 import pl.central.ActionStateContext;
-import pl.central.MarketX;
+import pl.central.marketX.MarketX;
 import pl.central.PlayerActionState;
 
 import static pl.central.Main.getUserInput;
