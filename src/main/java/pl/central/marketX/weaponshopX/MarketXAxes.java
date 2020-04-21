@@ -3,7 +3,6 @@ package pl.central.marketX.weaponshopX;
 import pl.central.ActionStateContext;
 import pl.central.PlayerActionState;
 import pl.central.marketX.MarketX;
-import pl.central.marketX.grainshopX.MarketXGrainShop;
 
 import static pl.central.Main.getUserInput;
 import static pl.central.Main.playerWealth;
@@ -21,29 +20,31 @@ public class MarketXAxes implements PlayerActionState {
         String playerChoice = getUserInput();
         ActionStateContext stateContext = new ActionStateContext();
 
-        if (playerChoice.equals("a")) {
-            if (playerWealth>=AxesPriceX){
-                playerWealth = playerWealth - AxesPriceX;
-                stateContext.setState(new MarketX());
-                stateContext.action();}
-            else {
-                System.out.println(" You have not enough money, you may buy something cheaper though.");
+        switch (playerChoice) {
+            case "a":
+                if (playerWealth >= AxesPriceX) {
+                    playerWealth = playerWealth - AxesPriceX;
+                    stateContext.setState(new MarketX());
+                    stateContext.action();
+                } else {
+                    System.out.println(" You have not enough money, you may buy something cheaper though.");
+                    stateContext.setState(new MarketXWeaponShop());
+                    stateContext.action();
+                }
+                break;
+            case "b":
                 stateContext.setState(new MarketXWeaponShop());
                 stateContext.action();
-            }
-        }
-        else if(playerChoice.equals("b")){
-            stateContext.setState(new MarketXWeaponShop());
-            stateContext.action();
-        }
-        else if (playerChoice.equals("c")){
-            stateContext.setState(new MarketX());
-            stateContext.action();
-        }
-        else {
-            System.out.println("There is no such option");
-            stateContext.setState(new MarketXWeaponShop());
-            stateContext.action();
+                break;
+            case "c":
+                stateContext.setState(new MarketX());
+                stateContext.action();
+                break;
+            default:
+                System.out.println("There is no such option");
+                stateContext.setState(new MarketXWeaponShop());
+                stateContext.action();
+                break;
         }
     }
 
