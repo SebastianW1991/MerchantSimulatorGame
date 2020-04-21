@@ -3,7 +3,6 @@ package pl.central.marketX.grainshopX;
 import pl.central.ActionStateContext;
 import pl.central.PlayerActionState;
 import pl.central.marketX.MarketX;
-import pl.central.marketX.wineshopX.MarketXWineShop;
 
 import static pl.central.Main.getUserInput;
 import static pl.central.Main.playerWealth;
