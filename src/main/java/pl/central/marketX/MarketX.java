@@ -3,6 +3,7 @@ package pl.central.marketX;
 import pl.central.ActionStateContext;
 import pl.central.PlayerActionState;
 import pl.central.XarthasMain;
+import pl.central.marketX.armorshopX.MarketXArmorShop;
 import pl.central.marketX.grainshopX.MarketXGrainShop;
 import pl.central.marketX.horseshopX.MarketXHorseShop;
 import pl.central.marketX.weaponshopX.MarketXWeaponShop;
@@ -33,7 +34,8 @@ public class MarketX implements PlayerActionState {
                 stateContext.setState(new MarketXHorseShop());
                 stateContext.action();
             case "b":
-
+                stateContext.setState(new MarketXArmorShop());
+                stateContext.action();
             case "c":
                 stateContext.setState(new MarketXWineShop());
                 stateContext.action();
