@@ -12,13 +12,14 @@ public class MarketXArmorShop implements PlayerActionState {
     public void action(ActionStateContext ctx)
     {
         System.out.println("You can:\n" +
-                "[a] Buy chest with 10 axes for 50 guldens\n" +
-                "[b] Buy chest with 10 swords for 80 guldens\n" +
-                "[c] Buy chest with 10 poleaxes for 100 guldens\n" +
-                "[d] Buy chest with 10 crossbows for 140 guldens\n" +
-                "[e] Buy barrel of 100 arrows for 20 guldens\n" +
-                "[f] Buy chest of 80 crossbow bolts for 30 guldens\n" +
-                "[g] Leave shop and return to market");
+                "[a] Buy  10 round shields for 120 guldens\n" +
+                "[b] Buy 10 kite shields for 150 guldens\n" +
+                "[c] Buy chest of infantry helmets for 200 guldens\n" +
+                "[d] Buy chest of chainmails for 300 guldens\n" +
+                "[e] Buy chest of gauntlets for 250 guldens\n" +
+                "[f] Buy chest of plate armours for 1000 guldens\n" +
+                "[g] Buy chest of KnightHelmets for 700 guldens\n" +
+                "[h] Leave shop and return to market");
         String playerChoice = getUserInput();
         ActionStateContext stateContext = new ActionStateContext();
 
@@ -43,7 +44,7 @@ public class MarketXArmorShop implements PlayerActionState {
                 stateContext.setState(new MarketXPlateArmor());
                 stateContext.action();
             case "g" :
-                stateContext.setState(new MarketXPlateArmor());
+                stateContext.setState(new MarketXKnightsHelmet());
                 stateContext.action();
             case "h":
                 stateContext.setState(new MarketX());
